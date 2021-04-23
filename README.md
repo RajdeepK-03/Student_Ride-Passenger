@@ -7,6 +7,9 @@ Database: SQL Lite
 Team Members:
 
 Varinder Dhillon
+
 Rajdeep Kaur
+
 Harmanpreet Singh
-Palvi
+
+Palavi
