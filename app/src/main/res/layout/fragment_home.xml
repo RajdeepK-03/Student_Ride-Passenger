@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/muli_light_italic"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Where you are going today ?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/muli_light_italic"
+            android:typeface="sans"
+            android:text="Please enter you postal code"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_zip"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:fontFamily="@font/muli_light_italic"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:background="@drawable/edittext_background"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btn_search"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

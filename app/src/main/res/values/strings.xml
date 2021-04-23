@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Student Ride</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Student Ride</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cars">
+        <item>Car1</item>
+        <item>Car2</item>
+        <item>Car3</item>
+        <item>Car4</item>
+        <item>Car5</item>
+    </string-array>
+
+
+</resources>
